@@ -40,7 +40,7 @@
       validate_certs: no
       return_content: yes
     register: this
-    failed_when: "'Alex Dworjan' not in this.content"
+    failed_when: "'Ansible' not in this.content"
 
   - name: Print web address
     debug: 
