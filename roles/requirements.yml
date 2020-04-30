@@ -1,2 +1,0 @@
-- name: ansible.ospatch
-  src: https://github.com/afpacket/ansible-role-patch-linux
