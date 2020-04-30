@@ -1,0 +1,9 @@
+- name: Update webpage
+  hosts: all
+
+  tasks:
+          
+  - name: Update Index Page for webpage
+    template:
+      src: indexcomplex.html.j2
+      dest: /var/www/html/index.html
